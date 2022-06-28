@@ -21,3 +21,11 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# 不提交的文件
+.idea/
+target/
+# idea创建的模块配置文件不需要提交
+*.iml
+# jrebel的配置文件不需要提交
+rebel.xml
